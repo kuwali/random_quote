@@ -1,0 +1,24 @@
+name: random_quote
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^3.0.0
+  http: ^0.12.0
+  meta: ^1.1.6
+  equatable: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+  test_coverage: ^0.4.0
+  bloc_test: ^3.0.0
+
+flutter:
+  uses-material-design: true
